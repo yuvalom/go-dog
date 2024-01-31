@@ -1,7 +1,6 @@
 package godog
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -10,5 +9,5 @@ func WhenGrownUp(s string) string {
 }
 
 func From1_0() string {
-	fmt.Println("I am from version v1.0.0")
+	return "I am from version v1.0.0"
 }
